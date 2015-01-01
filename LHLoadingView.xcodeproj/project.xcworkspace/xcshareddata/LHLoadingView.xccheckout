@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>768B79EE-6C40-425B-8FC7-55370639D97D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LHLoadingView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>68D0C6FA-8982-4830-9FDB-6CA60B230F2E</key>
+		<string>https://github.com/leostc/LHLoadingView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LHLoadingView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>68D0C6FA-8982-4830-9FDB-6CA60B230F2E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/leostc/LHLoadingView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>68D0C6FA-8982-4830-9FDB-6CA60B230F2E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>68D0C6FA-8982-4830-9FDB-6CA60B230F2E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LHLoadingView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
