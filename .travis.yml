@@ -1,2 +1,2 @@
 language: objective-c
-script: xctool -project LHLoadingView.xcodeproj -scheme LHLoadingView -sdkiphonesimulator  test
+script: -xctool -project LHLoadingView.xcodeproj -scheme LHLoadingView -sdk iphonesimulator test
