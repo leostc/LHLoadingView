@@ -1,12 +1,12 @@
 //
-//  LHLoadingView.m
+//  LHLoadingTipView.m
 //  LHLoadingView
 //
 //  Created by lihao-xy on 15/1/23.
 //  Copyright (c) 2015年 Leo. All rights reserved.
 //
 
-#import "LHLoadingView.h"
+#import "LHLoadingTipView.h"
 
 #define AnimationTime   0.3
 
@@ -19,7 +19,7 @@
 
 #define kDotColor               [UIColor colorWithRed:200/255.0 green:206/255.0 blue:221/255.0 alpha:1.0]
 
-@interface LHLoadingView()
+@interface LHLoadingTipView()
 
 @property (strong, nonatomic) UIView *dotView0,*dotView1,*dotView2;
 @property (strong, nonatomic) NSArray *dotViews;
@@ -27,7 +27,7 @@
 @property (strong, nonatomic) NSTimer *timer;
 @end
 
-@implementation LHLoadingView
+@implementation LHLoadingTipView
 
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];

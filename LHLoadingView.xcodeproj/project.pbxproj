@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD50F70C1A71FEE2004CCFC2 /* LHLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD50F70B1A71FEE2004CCFC2 /* LHLoadingView.m */; };
+		CD50F70F1A721DA1004CCFC2 /* LHLoadingTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD50F70E1A721DA1004CCFC2 /* LHLoadingTipView.m */; };
 		F603370E17D8CAD400C05997 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F603370D17D8CAD400C05997 /* UIKit.framework */; };
 		F603371017D8CAD400C05997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F603370F17D8CAD400C05997 /* Foundation.framework */; };
 		F603371217D8CAD400C05997 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F603371117D8CAD400C05997 /* CoreGraphics.framework */; };
@@ -22,8 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CD50F70A1A71FEE2004CCFC2 /* LHLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHLoadingView.h; sourceTree = "<group>"; };
-		CD50F70B1A71FEE2004CCFC2 /* LHLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHLoadingView.m; sourceTree = "<group>"; };
+		CD50F70D1A721DA1004CCFC2 /* LHLoadingTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHLoadingTipView.h; sourceTree = "<group>"; };
+		CD50F70E1A721DA1004CCFC2 /* LHLoadingTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHLoadingTipView.m; sourceTree = "<group>"; };
 		F603370A17D8CAD400C05997 /* LHLoadingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHLoadingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F603370D17D8CAD400C05997 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F603370F17D8CAD400C05997 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -114,8 +114,8 @@
 		F603373017D8CC8A00C05997 /* LoadingTipView */ = {
 			isa = PBXGroup;
 			children = (
-				CD50F70A1A71FEE2004CCFC2 /* LHLoadingView.h */,
-				CD50F70B1A71FEE2004CCFC2 /* LHLoadingView.m */,
+				CD50F70D1A721DA1004CCFC2 /* LHLoadingTipView.h */,
+				CD50F70E1A721DA1004CCFC2 /* LHLoadingTipView.m */,
 			);
 			path = LoadingTipView;
 			sourceTree = SOURCE_ROOT;
@@ -189,7 +189,7 @@
 			files = (
 				F603371A17D8CAD400C05997 /* main.m in Sources */,
 				F603371E17D8CAD500C05997 /* LVAppDelegate.m in Sources */,
-				CD50F70C1A71FEE2004CCFC2 /* LHLoadingView.m in Sources */,
+				CD50F70F1A721DA1004CCFC2 /* LHLoadingTipView.m in Sources */,
 				F603372717D8CAD500C05997 /* LVViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

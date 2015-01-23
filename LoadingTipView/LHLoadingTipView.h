@@ -1,5 +1,5 @@
 //
-//  LHLoadingView.h
+//  LHLoadingTipView.h
 //  LHLoadingView
 //
 //  Created by lihao-xy on 15/1/23.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LHLoadingView : UIView
+@interface LHLoadingTipView : UIView
 
 -(void)showView:(BOOL)show;
 
