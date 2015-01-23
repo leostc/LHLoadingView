@@ -1,6 +1,5 @@
-language:objective-c
-before_install:    
-     - brew update    
+language: objective-c
+before_install: 
+     - brew update
      - brew install xctool
-script: xctool -project LHLoadingView.xcodeproj -scheme
-LHLoadingView -sdkiphonesimulator  test
+script: xctool -project LHLoadingView.xcodeproj -scheme LHLoadingView -sdkiphonesimulator  test
