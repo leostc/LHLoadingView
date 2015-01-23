@@ -10,7 +10,7 @@
 #import "LHLoadingTipView.h"
 
 @interface LVViewController ()
-@property (strong, nonatomic) IBOutlet LHLoadingTipView *loadingView1,*loadingView2;
+@property (weak, nonatomic) IBOutlet LHLoadingTipView *loadingView1,*loadingView2;
 
 @end
 

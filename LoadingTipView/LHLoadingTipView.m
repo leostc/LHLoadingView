@@ -37,8 +37,7 @@
     return self;
 }
 
-- (void)layoutSubviews {
-    [super layoutSubviews];
+-(void)awakeFromNib{
     [self initView];
 }
 
