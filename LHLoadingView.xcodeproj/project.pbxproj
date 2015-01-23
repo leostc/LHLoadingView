@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD50F70C1A71FEE2004CCFC2 /* LHLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD50F70B1A71FEE2004CCFC2 /* LHLoadingView.m */; };
 		F603370E17D8CAD400C05997 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F603370D17D8CAD400C05997 /* UIKit.framework */; };
 		F603371017D8CAD400C05997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F603370F17D8CAD400C05997 /* Foundation.framework */; };
 		F603371217D8CAD400C05997 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F603371117D8CAD400C05997 /* CoreGraphics.framework */; };
@@ -18,10 +19,11 @@
 		F603372417D8CAD500C05997 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F603372317D8CAD500C05997 /* Default-568h@2x.png */; };
 		F603372717D8CAD500C05997 /* LVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F603372617D8CAD500C05997 /* LVViewController.m */; };
 		F603372A17D8CAD500C05997 /* LVViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F603372817D8CAD500C05997 /* LVViewController.xib */; };
-		F603373317D8CC8A00C05997 /* LeoLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F603373217D8CC8A00C05997 /* LeoLoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD50F70A1A71FEE2004CCFC2 /* LHLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHLoadingView.h; sourceTree = "<group>"; };
+		CD50F70B1A71FEE2004CCFC2 /* LHLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHLoadingView.m; sourceTree = "<group>"; };
 		F603370A17D8CAD400C05997 /* LHLoadingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHLoadingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F603370D17D8CAD400C05997 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F603370F17D8CAD400C05997 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -38,8 +40,6 @@
 		F603372517D8CAD500C05997 /* LVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVViewController.h; sourceTree = "<group>"; };
 		F603372617D8CAD500C05997 /* LVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVViewController.m; sourceTree = "<group>"; };
 		F603372917D8CAD500C05997 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LVViewController.xib; sourceTree = "<group>"; };
-		F603373117D8CC8A00C05997 /* LeoLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoLoadingView.h; sourceTree = "<group>"; };
-		F603373217D8CC8A00C05997 /* LeoLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoLoadingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +114,8 @@
 		F603373017D8CC8A00C05997 /* LoadingTipView */ = {
 			isa = PBXGroup;
 			children = (
-				F603373117D8CC8A00C05997 /* LeoLoadingView.h */,
-				F603373217D8CC8A00C05997 /* LeoLoadingView.m */,
+				CD50F70A1A71FEE2004CCFC2 /* LHLoadingView.h */,
+				CD50F70B1A71FEE2004CCFC2 /* LHLoadingView.m */,
 			);
 			path = LoadingTipView;
 			sourceTree = SOURCE_ROOT;
@@ -189,8 +189,8 @@
 			files = (
 				F603371A17D8CAD400C05997 /* main.m in Sources */,
 				F603371E17D8CAD500C05997 /* LVAppDelegate.m in Sources */,
+				CD50F70C1A71FEE2004CCFC2 /* LHLoadingView.m in Sources */,
 				F603372717D8CAD500C05997 /* LVViewController.m in Sources */,
-				F603373317D8CC8A00C05997 /* LeoLoadingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +241,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -265,7 +265,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -278,6 +278,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LHLoadingView/LHLoadingView-Prefix.pch";
 				INFOPLIST_FILE = "LHLoadingView/LHLoadingView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,6 +290,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LHLoadingView/LHLoadingView-Prefix.pch";
 				INFOPLIST_FILE = "LHLoadingView/LHLoadingView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -313,6 +315,7 @@
 				F603372F17D8CAD500C05997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,29 +10,29 @@
 	<string>LHLoadingView</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>68D0C6FA-8982-4830-9FDB-6CA60B230F2E</key>
-		<string>https://github.com/leostc/LHLoadingView.git</string>
+		<key>A946B29FF6C7ED7DE3708A44ADB5621200923F7D</key>
+		<string>github.com:leostc/LHLoadingView.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>LHLoadingView.xcodeproj/project.xcworkspace</string>
+	<string>LHLoadingView.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>68D0C6FA-8982-4830-9FDB-6CA60B230F2E</key>
+		<key>A946B29FF6C7ED7DE3708A44ADB5621200923F7D</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/leostc/LHLoadingView.git</string>
+	<string>github.com:leostc/LHLoadingView.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>68D0C6FA-8982-4830-9FDB-6CA60B230F2E</string>
+	<string>A946B29FF6C7ED7DE3708A44ADB5621200923F7D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>68D0C6FA-8982-4830-9FDB-6CA60B230F2E</string>
+			<string>A946B29FF6C7ED7DE3708A44ADB5621200923F7D</string>
 			<key>IDESourceControlWCCName</key>
 			<string>LHLoadingView</string>
 		</dict>

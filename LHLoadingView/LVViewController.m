@@ -7,10 +7,10 @@
 //
 
 #import "LVViewController.h"
-#import "LeoLoadingView.h"
+#import "LHLoadingView.h"
 
 @interface LVViewController ()
-@property (strong, nonatomic) IBOutlet LeoLoadingView *loadingView1,*loadingView2;
+@property (strong, nonatomic) IBOutlet LHLoadingView *loadingView1,*loadingView2;
 
 @end
 
