@@ -1,5 +1,6 @@
 LHLoadingView
 =============
+[![Build Status](https://travis-ci.org/leostc/LHLoadingView.svg?branch=master)](https://travis-ci.org/leostc/LHLoadingView)
 
 It is an alternative to the activity indicator view with three blocks' animation
 
