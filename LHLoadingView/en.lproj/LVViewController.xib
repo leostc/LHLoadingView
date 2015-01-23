@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6254"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LVViewController">
@@ -33,14 +33,45 @@
                         <constraint firstAttribute="height" constant="30" id="kwe-hz-sVk"/>
                     </constraints>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDe-qZ-lXS">
+                    <rect key="frame" x="57" y="470" width="70" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="aeh-5f-FUb"/>
+                        <constraint firstAttribute="width" constant="70" id="vIi-YJ-LXQ"/>
+                    </constraints>
+                    <state key="normal" title="start">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="startBtnPressed:" destination="-1" eventType="touchUpInside" id="OkL-LN-TrH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8vZ-48-jYx">
+                    <rect key="frame" x="193" y="470" width="70" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="9XO-4M-1h1"/>
+                        <constraint firstAttribute="width" constant="70" id="HDA-QG-Aec"/>
+                    </constraints>
+                    <state key="normal" title="stop">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="stopBtnPressed:" destination="-1" eventType="touchUpInside" id="mH1-br-nTr"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstAttribute="bottom" secondItem="8vZ-48-jYx" secondAttribute="bottom" constant="68" id="4fQ-E1-wO7"/>
+                <constraint firstAttribute="bottom" secondItem="yDe-qZ-lXS" secondAttribute="bottom" constant="68" id="A3h-fI-CSK"/>
+                <constraint firstAttribute="trailing" secondItem="8vZ-48-jYx" secondAttribute="trailing" constant="57" id="VeR-yH-7eu"/>
                 <constraint firstItem="8" firstAttribute="top" secondItem="6" secondAttribute="top" constant="70" id="dU3-06-ewa"/>
                 <constraint firstAttribute="centerX" secondItem="9" secondAttribute="centerX" id="lk7-O7-Vbl"/>
                 <constraint firstItem="9" firstAttribute="top" secondItem="8" secondAttribute="bottom" constant="53" id="oMY-TQ-yT6"/>
+                <constraint firstItem="yDe-qZ-lXS" firstAttribute="leading" secondItem="6" secondAttribute="leading" constant="57" id="ucy-9E-Cw4"/>
                 <constraint firstAttribute="centerX" secondItem="8" secondAttribute="centerX" id="wu8-gT-0RV"/>
             </constraints>
+            <point key="canvasLocation" x="307" y="294"/>
         </view>
     </objects>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

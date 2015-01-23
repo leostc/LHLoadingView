@@ -21,14 +21,22 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    [_loadingView1 showView:YES];
-    [_loadingView2 showView:YES];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)startBtnPressed:(id)sender {
+    [_loadingView1 showView:YES];
+    [_loadingView2 showView:YES];
+}
+
+- (IBAction)stopBtnPressed:(id)sender {
+    [_loadingView1 showView:NO];
+    [_loadingView2 showView:NO];
 }
 
 @end

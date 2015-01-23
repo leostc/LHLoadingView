@@ -33,11 +33,13 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.hidden = YES;
+        [self initView];
     }
     return self;
 }
 
 -(void)awakeFromNib{
+    self.hidden = YES;
     [self initView];
 }
 
